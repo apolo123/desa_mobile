@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Biomédica de refrerencia</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="lib-mobile/jquery.mobile-1.3.1.min.css" />
+<link rel="stylesheet" href="css/estilos.css" />
+<script type="text/javascript" src="cordova-2.6.0.js"></script>
+<script type="text/javascript" src="lib-mobile/jquery.js"></script>
+<script type="text/javascript" src="lib-mobile/jquery.mobile-1.3.1.min.js"></script>
+</head>
+
+<body>
+  <div data-role="page" class="principal" >
+    <div data-role="header">
+	   <img src="css/images/marquesina.jpg" width="100%"/>
+       <div data-role="navbar">
+         <ul>
+           <li><a href="#" data-role="button" data-icon="home" data-iconpos="top">Ubicanos</a> </li>
+           <li><a href="#" data-role="button" data-icon="arrow-r" data-iconpos="top">Servicios</a> </li>
+         </ul>
+       </div>
+    </div>
+     
+     <div data-role="content" class="contenido">
+      <!-- contenido de la apliacaion !-->
+        <div class="ui-body ui-body-d ui-corner-all" style="text-align:center">
+            Para poder ver el XML y/o PDF de su factura electrónica, deberá ingresar en el espacio en blanco el 
+            código que aparece en el pie de página de su factura 
+        </div>
+        
+        <div class="formulario">
+          <form id="frmbusca" name="frmbusca" method="post" action="">
+            <input type="search" id="txt_codigo" placeholder="Introduzca su codigo"  value=""/> 
+            
+            <div class="ui-grid-a">
+              <div class="ui-block-a">
+               <button data-icon="search" type="submit" data-theme="b" name="submit" value="Buscar">Buscar</button>
+              </div>
+              <div class="ui-block-b">
+               <button data-icon="delete" type="reset" data-theme="b" name="limpia" value="Buscar">Cancelar</button>
+              </div>
+            </div>
+          </form>     
+        </div>
+     </div>
+     
+     <div data-role="footer" data-id="foo1" data-position="fixed">
+	   <div data-role="navbar">
+         <ul>
+          <li><a href="#" data-role="button" data-icon="info" data-iconpos="top">Info</a></li>
+          <li><a href="#" data-role="button" data-icon="grid" data-iconpos="top">News</a></li>
+          <li><a href="#" data-role="button" data-icon="gear" data-iconpos="top">Contac</a></li>
+        </ul>
+       </div>  
+    </div>
+     
+ </div> 
+</body>
+</html>

@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+@media screen and (max-width: 320px)
+{
+ /*ipod and iphone*/
+   .principal{
+     width:321px;
+  }
+  
+  .contenido{
+     height:268px;
+  }
+   
+  .formulario{
+    width:100%;
+	padding:0px;
+	text-align:center;
+	margin:auto;
+   }
+   
+   .contacto{
+      display: none;
+   }
+}
